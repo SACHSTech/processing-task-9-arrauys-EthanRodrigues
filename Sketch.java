@@ -101,18 +101,18 @@ public class Sketch extends PApplet {
     // draws squares in the top right of the screen based on the number of player lives
     if(intLives == 3){
       fill(240, 24, 0);
-      rect(280, 10, 30, 30);
-      rect(320, 10, 30, 30);
-      rect(360, 10, 30, 30);
+      rect(260, 5, 20, 30);
+      rect(300, 5, 20, 30);
+      rect(340, 5, 20, 30);
     
     }else if(intLives == 2){
       fill(240, 24, 0);
-      rect(320, 10, 30, 30);
-      rect(360, 10, 30, 30);
+      rect(300, 5, 20, 30);
+      rect(340, 5, 20, 30);
     
     }else if(intLives == 1){
       fill(240, 24, 0);
-      rect(360, 10, 30, 30);
+      rect(340, 5, 20, 30);
 
     }else if(intLives < 1){
       background(255);  
